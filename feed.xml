@@ -4,45 +4,51 @@
      xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
+    <!-- SHOW INFO -->
     <title>Flashback : le portrait psychédélique d’un disparu</title>
-    <link>https://raw.githubusercontent.com/2PAR4/Flashback-podcast/main/</link>
+    <link>https://github.com/2PAR4/Flashback-podcast</link>
     <language>fr-CA</language>
     <copyright>© 2025 Productions 2PAR4</copyright>
     <itunes:author>Gilles Poulin-Denis, Louis-Philippe Roy</itunes:author>
-
     <itunes:summary>Inspirée de faits historiques, cette œuvre de fiction suit le parcours d’Audrey et Sabrina alors qu’elles creusent un secret familial enfoui depuis l’été 1961. En parallèle, elles retracent l’histoire de l’usage thérapeutique du LSD au Canada.</itunes:summary>
     <description>Inspirée de faits historiques, cette œuvre de fiction suit le parcours d’Audrey et Sabrina alors qu’elles creusent un secret familial enfoui depuis l’été 1961, de Hawkesbury, en Ontario, jusque dans l’Ouest canadien. En parallèle, elles retracent l’histoire de l’usage thérapeutique du LSD au Canada.</description>
-
     <itunes:explicit>false</itunes:explicit>
 
+    <!-- CONTACT (required by Apple) -->
     <itunes:owner>
       <itunes:name>Productions 2PAR4</itunes:name>
-      <itunes:email>VOTRE-EMAIL-ICI</itunes:email>
+      <itunes:email>info@2par4.ca</itunes:email>
     </itunes:owner>
 
+    <!-- TYPE -->
     <itunes:type>serial</itunes:type>
 
+    <!-- ART & CATEGORIES -->
     <itunes:image href="https://raw.githubusercontent.com/2PAR4/Flashback-podcast/main/Flashback.jpg" />
-
     <itunes:category text="Arts">
       <itunes:category text="Performing Arts"/>
     </itunes:category>
 
-    <!-- The feed's own URL -->
+    <!-- SELF LINK (this feed's own URL) -->
     <atom:link href="https://raw.githubusercontent.com/2PAR4/Flashback-podcast/main/feed.xml" rel="self" type="application/rss+xml" />
 
     <!-- EPISODE 1 -->
     <item>
       <title>Épisode 1 – Le frère de Lucien</title>
       <itunes:author>Gilles Poulin-Denis</itunes:author>
-
       <itunes:summary>À l’été 1961, Grégoire Carrière quitte mystérieusement sa famille. Soixante ans plus tard, Audrey découvre une rumeur troublante à propos de son grand-père et de possibles psychédéliques.</itunes:summary>
       <description>Audrey Carrière et son amie Sabrina Comeau plongent dans une intrigue familiale liée à l’histoire des psychédéliques au Canada.</description>
 
+      <!-- direct MP3, exact byte length, correct MIME -->
       <enclosure url="https://raw.githubusercontent.com/2PAR4/Flashback-podcast/main/Flashback_e01_v1.mp3" length="8940685" type="audio/mpeg" />
+
+      <!-- unique, stable ID -->
       <guid isPermaLink="false">flashback-e01-v1</guid>
 
+      <!-- RFC 2822 date -->
       <pubDate>Tue, 04 Nov 2025 10:00:00 GMT</pubDate>
+
+      <!-- hh:mm:ss -->
       <itunes:duration>00:29:49</itunes:duration>
     </item>
 
