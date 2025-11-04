@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <!-- Basic Podcast Info -->
+    <title>{{Flashback : le portrait psychédélique d’un disparu}}</title>
+    <link>{{https://github.com/2PAR4/Flashback-podcast/blob/main/Flashback_e01_v1.mp3}}</link>
+    <language>fr-can</language>
+    <copyright>© {{2024}} {{Productions 2PAR4}}</copyright>
+    <itunes:author>{{Gilles Poulin-Denis Louis-Philippe Roy}}</itunes:author>
+    <itunes:summary>{{Inspirée de faits historiques, cette œuvre de fiction suit le parcours d’Audrey et Sabrina alors qu’elles creusent un secret familial enfoui depuis l’été 1961. En parallèle, elles retracent l’histoire de l’usage thérapeutique du LSD au Canada.}}</itunes:summary>
+    <description>{{Inspirée de faits historiques, cette œuvre de fiction suit le parcours d’Audrey et Sabrina alors qu’elles creusent un secret familial enfoui depuis l’été 1961, de Hawkesbury, en Ontario et jusque dans l’Ouest canadien. En parallèle, elles retracent l’histoire de l’usage thérapeutique du LSD au Canada.}}</description>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="{{https://github.com/2PAR4/Flashback-podcast/blob/main/Flashback.jpg}}" />
+    <itunes:category text="{{Arts}}" />
+    <atom:link href="{{https://yourusername.github.io/podcast/feed.xml}}" rel="self" type="application/rss+xml" />
+
+    <!-- EPISODE 1 -->
+    <item>
+      <title>Episode 1 – {{Le frère de Lucien}}</title>
+      <itunes:author>{{Gilles Poulin-Denis}}</itunes:author>
+      <itunes:summary>{{À l’été 1961, Grégoire Carrière quitte mystérieusement sa famille et sa petite ville de l’Ontario. Soixante ans plus tard, Audrey Carrière découvre une rumeur troublante à propos de son grand-père Grégoire et sa possible consommation de psychédéliques. }}</itunes:summary>
+      <description>{{À l’été 1961, Grégoire Carrière quitte mystérieusement sa famille et sa petite ville de l’Ontario. Soixante ans plus tard, Audrey Carrière découvre une rumeur troublante à propos de son grand-père Grégoire. Son amie, Sabrina Comeau, étudiante à la maîtrise en communication, décide de fouiller cette intrigue familiale possiblement liée à la consommation de psychédéliques.}}</description>
+      <enclosure url="{{https://github.com/2PAR4/Flashback-podcast/blob/main/Flashback_e01_v1.mp3}}" length="00:29:49" type="audio/mpeg" />
+      <guid>{{https://github.com/2PAR4/Flashback-podcast/blob/main/Flashback_e01_v1.mp3}}</guid>
+      <pubDate>{{Tue, 04 Nov 2025 10:00:00 GMT}}</pubDate>
+      <itunes:duration>{{00:29:49}}</itunes:duration>
+    </item>
+   -->
+
+  </channel>
+</rss>
