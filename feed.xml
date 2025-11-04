@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:atom="http://www.w3.org/2005/Atom">
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0">
 
   <channel>
     <!-- SHOW INFO -->
@@ -14,7 +15,7 @@
     <description>Inspirée de faits historiques, cette œuvre de fiction suit le parcours d’Audrey et Sabrina alors qu’elles creusent un secret familial enfoui depuis l’été 1961, de Hawkesbury, en Ontario, jusque dans l’Ouest canadien. En parallèle, elles retracent l’histoire de l’usage thérapeutique du LSD au Canada.</description>
     <itunes:explicit>false</itunes:explicit>
 
-    <!-- CONTACT (required by Apple) -->
+    <!-- CONTACT -->
     <itunes:owner>
       <itunes:name>Productions 2PAR4</itunes:name>
       <itunes:email>info@2par4.ca</itunes:email>
@@ -29,8 +30,13 @@
       <itunes:category text="Performing Arts"/>
     </itunes:category>
 
-    <!-- SELF LINK (this feed's own URL) -->
+    <!-- FEED SELF LINK -->
     <atom:link href="https://raw.githubusercontent.com/2PAR4/Flashback-podcast/main/feed.xml" rel="self" type="application/rss+xml" />
+
+    <!-- PODCAST NAMESPACE (PSP-1) -->
+    <podcast:guid>0f5a2a4e-7a1b-4632-9a7b-9d3c3b0f8c2a</podcast:guid>
+    <podcast:locked>yes</podcast:locked>
+    <podcast:funding url="https://2par4.ca">Soutenir la série</podcast:funding>
 
     <!-- EPISODE 1 -->
     <item>
@@ -39,16 +45,9 @@
       <itunes:summary>À l’été 1961, Grégoire Carrière quitte mystérieusement sa famille. Soixante ans plus tard, Audrey découvre une rumeur troublante à propos de son grand-père et de possibles psychédéliques.</itunes:summary>
       <description>Audrey Carrière et son amie Sabrina Comeau plongent dans une intrigue familiale liée à l’histoire des psychédéliques au Canada.</description>
 
-      <!-- direct MP3, exact byte length, correct MIME -->
       <enclosure url="https://raw.githubusercontent.com/2PAR4/Flashback-podcast/main/Flashback_e01_v1.mp3" length="8940685" type="audio/mpeg" />
-
-      <!-- unique, stable ID -->
       <guid isPermaLink="false">flashback-e01-v1</guid>
-
-      <!-- RFC 2822 date -->
       <pubDate>Tue, 04 Nov 2025 10:00:00 GMT</pubDate>
-
-      <!-- hh:mm:ss -->
       <itunes:duration>00:29:49</itunes:duration>
     </item>
 
