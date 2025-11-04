@@ -15,7 +15,7 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="{{https://github.com/2PAR4/Flashback-podcast/blob/main/Flashback.jpg}}" />
     <itunes:category text="{{Arts}}" />
-    <atom:link href="{{https://yourusername.github.io/podcast/feed.xml}}" rel="self" type="application/rss+xml" />
+    <atom:link href="{{https://github.com/2PAR4/Flashback-podcast/blob/main/feed.xml" />
 
     <!-- EPISODE 1 -->
     <item>
