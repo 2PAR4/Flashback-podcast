@@ -13,8 +13,10 @@
     <itunes:summary>{{Inspirée de faits historiques, cette œuvre de fiction suit le parcours d’Audrey et Sabrina alors qu’elles creusent un secret familial enfoui depuis l’été 1961. En parallèle, elles retracent l’histoire de l’usage thérapeutique du LSD au Canada.}}</itunes:summary>
     <description>{{Inspirée de faits historiques, cette œuvre de fiction suit le parcours d’Audrey et Sabrina alors qu’elles creusent un secret familial enfoui depuis l’été 1961, de Hawkesbury, en Ontario et jusque dans l’Ouest canadien. En parallèle, elles retracent l’histoire de l’usage thérapeutique du LSD au Canada.}}</description>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="{{https://github.com/2PAR4/Flashback-podcast/blob/main/Flashback.jpg}}" />
-    <itunes:category text="{{Arts}}" />
+    <itunes:image href="{{https://github.com/2PAR4/Flashback-podcast/blob/efcb283b7e791e0f4c316b8c635627f5b1bb6f9e/Flashback.jpg}}" />
+    <itunes:category text="Arts">
+  <itunes:category text="Performing Arts"/>
+</itunes:category>
     <atom:link href="{{https://github.com/2PAR4/Flashback-podcast/blob/main/feed.xml" />
 
     <!-- EPISODE 1 -->
@@ -23,7 +25,7 @@
       <itunes:author>{{Gilles Poulin-Denis}}</itunes:author>
       <itunes:summary>{{À l’été 1961, Grégoire Carrière quitte mystérieusement sa famille et sa petite ville de l’Ontario. Soixante ans plus tard, Audrey Carrière découvre une rumeur troublante à propos de son grand-père Grégoire et sa possible consommation de psychédéliques. }}</itunes:summary>
       <description>{{À l’été 1961, Grégoire Carrière quitte mystérieusement sa famille et sa petite ville de l’Ontario. Soixante ans plus tard, Audrey Carrière découvre une rumeur troublante à propos de son grand-père Grégoire. Son amie, Sabrina Comeau, étudiante à la maîtrise en communication, décide de fouiller cette intrigue familiale possiblement liée à la consommation de psychédéliques.}}</description>
-      <enclosure url="{{https://github.com/2PAR4/Flashback-podcast/blob/main/Flashback_e01_v1.mp3}}" length="00:29:49" type="audio/mpeg" />
+      <enclosure url="{{https://raw.githubusercontent.com/2PAR4/Flashback-podcast/main/episode1.mp3}}" length="8,940,685" type="audio/mpeg" />
       <guid>{{https://github.com/2PAR4/Flashback-podcast/blob/main/Flashback_e01_v1.mp3}}</guid>
       <pubDate>{{Tue, 04 Nov 2025 10:00:00 GMT}}</pubDate>
       <itunes:duration>{{00:29:49}}</itunes:duration>
